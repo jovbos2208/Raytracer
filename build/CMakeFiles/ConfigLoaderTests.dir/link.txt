@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/ConfigLoaderTests.dir/test/test/test_ConfigLoader.cpp.o CMakeFiles/ConfigLoaderTests.dir/src/ConfigLoader.cpp.o -o ConfigLoaderTests  lib/libgtest.a lib/libgtest_main.a libinih.a lib/libgtest.a 

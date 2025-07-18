@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/Vector3Tests.dir/test/test/test_Vector3.cpp.o -o Vector3Tests  lib/libgtest_main.a lib/libgtest.a 

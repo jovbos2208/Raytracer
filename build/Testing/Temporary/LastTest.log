@@ -1,0 +1,177 @@
+Start testing: Jul 18 11:45 CEST
+----------------------------------------------------------
+1/8 Testing: Vector3Test
+1/8 Test: Vector3Test
+Command: "/home/jovan/Software/Raytracer/build/Vector3Tests"
+Directory: /home/jovan/Software/Raytracer/build
+"Vector3Test" start time: Jul 18 11:45 CEST
+Output:
+----------------------------------------------------------
+===============================================================================
+All tests passed (22 assertions in 6 test cases)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Vector3Test" end time: Jul 18 11:45 CEST
+"Vector3Test" time elapsed: 00:00:00
+----------------------------------------------------------
+
+2/8 Testing: IntersectionTest
+2/8 Test: IntersectionTest
+Command: "/home/jovan/Software/Raytracer/build/IntersectionTests"
+Directory: /home/jovan/Software/Raytracer/build
+"IntersectionTest" start time: Jul 18 11:45 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/jovan/Software/Raytracer/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from IntersectionEngineTest
+[ RUN      ] IntersectionEngineTest.RayHitsCubeFromAbove
+✔️  Normalkorrektur durchgeführt: alle Flächen zeigen nach außen.
+[       OK ] IntersectionEngineTest.RayHitsCubeFromAbove (0 ms)
+[ RUN      ] IntersectionEngineTest.RayMissesCubeFromSide
+✔️  Normalkorrektur durchgeführt: alle Flächen zeigen nach außen.
+[       OK ] IntersectionEngineTest.RayMissesCubeFromSide (0 ms)
+[ RUN      ] IntersectionEngineTest.RayHitsCorner
+✔️  Normalkorrektur durchgeführt: alle Flächen zeigen nach außen.
+[       OK ] IntersectionEngineTest.RayHitsCorner (0 ms)
+[----------] 3 tests from IntersectionEngineTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"IntersectionTest" end time: Jul 18 11:45 CEST
+"IntersectionTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/8 Testing: DragForceTest
+3/8 Test: DragForceTest
+Command: "/home/jovan/Software/Raytracer/build/DragForceTests"
+Directory: /home/jovan/Software/Raytracer/build
+"DragForceTest" start time: Jul 18 11:45 CEST
+Output:
+----------------------------------------------------------
+Running main() from /home/jovan/Software/Raytracer/build/_deps/googletest-src/googletest/src/gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from DragForceCalculatorTest
+[ RUN      ] DragForceCalculatorTest.AccumulatesForceCorrectly
+[       OK ] DragForceCalculatorTest.AccumulatesForceCorrectly (0 ms)
+[ RUN      ] DragForceCalculatorTest.MergeCombinesForces
+[       OK ] DragForceCalculatorTest.MergeCombinesForces (0 ms)
+[----------] 2 tests from DragForceCalculatorTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"DragForceTest" end time: Jul 18 11:45 CEST
+"DragForceTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/8 Testing: SurfaceInteractionTest
+4/8 Test: SurfaceInteractionTest
+Command: "/home/jovan/Software/Raytracer/build/SurfaceInteractionTests"
+Directory: /home/jovan/Software/Raytracer/build
+"SurfaceInteractionTest" start time: Jul 18 11:45 CEST
+Output:
+----------------------------------------------------------
+[OK] test_reflection_is_computed_correctly
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SurfaceInteractionTest" end time: Jul 18 11:45 CEST
+"SurfaceInteractionTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/8 Testing: MaxwellSamplerTest
+5/8 Test: MaxwellSamplerTest
+Command: "/home/jovan/Software/Raytracer/build/MaxwellSamplerTests"
+Directory: /home/jovan/Software/Raytracer/build
+"MaxwellSamplerTest" start time: Jul 18 11:45 CEST
+Output:
+----------------------------------------------------------
+Gemittelte Geschwindigkeit: (99.9987, -0.00155135, 0.00413572)
+[OK] test_maxwell_sampler_statistical_behavior ✅
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Passed.
+"MaxwellSamplerTest" end time: Jul 18 11:45 CEST
+"MaxwellSamplerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+6/8 Testing: ConfigLoaderTest
+6/8 Test: ConfigLoaderTest
+Command: "/home/jovan/Software/Raytracer/build/ConfigLoaderTests"
+Directory: /home/jovan/Software/Raytracer/build
+"ConfigLoaderTest" start time: Jul 18 11:45 CEST
+Output:
+----------------------------------------------------------
+✔️ Konfiguration erfolgreich geladen.
+[OK] test_config_loader_parses_correctly
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"ConfigLoaderTest" end time: Jul 18 11:45 CEST
+"ConfigLoaderTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+7/8 Testing: MeshLoaderTest
+7/8 Test: MeshLoaderTest
+Command: "/home/jovan/Software/Raytracer/build/MeshLoaderTests"
+Directory: /home/jovan/Software/Raytracer/build
+"MeshLoaderTest" start time: Jul 18 11:45 CEST
+Output:
+----------------------------------------------------------
+✔️  Normalkorrektur durchgeführt: alle Flächen zeigen nach außen.
+✔️  Standard-Bounding Box Größe: 1.73205
+🔍 Asymmetrische Bounding Box (mit Padding):
+    Min: (-0.2, -0.2, -0.2)
+    Max: (1.2, 1.2, 1.2)
+[OK] Asymmetrische Bounding Box korrekt erweitert ✅
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"MeshLoaderTest" end time: Jul 18 11:45 CEST
+"MeshLoaderTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+8/8 Testing: SimulationControllerTest
+8/8 Test: SimulationControllerTest
+Command: "/home/jovan/Software/Raytracer/build/SimulationControllerTests"
+Directory: /home/jovan/Software/Raytracer/build
+"SimulationControllerTest" start time: Jul 18 11:45 CEST
+Output:
+----------------------------------------------------------
+[TEST] SimulationController: generateMixedRays() mit BoundingBox-Shell
+→ Lade Mesh: models/Cube.obj
+✔️  Normalkorrektur durchgeführt: alle Flächen zeigen nach außen.
+✔️  Geometrie erfolgreich geladen.
+→ Erzeuge Rays in BoundingBox-Shell ...
+Nsp of N2: 300
+✅ Ray-VTK-Datei geschrieben: ray_debug.vtk
+✅ Rays erzeugt: 300
+✔️  300 Rays erzeugt.
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"SimulationControllerTest" end time: Jul 18 11:45 CEST
+"SimulationControllerTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jul 18 11:45 CEST

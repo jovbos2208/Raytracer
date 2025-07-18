@@ -1,0 +1,28 @@
+# Simple watertight cube with outward-facing normals
+v 0 0 0
+v 1 0 0
+v 1 1 0
+v 0 1 0
+v 0 0 1
+v 1 0 1
+v 1 1 1
+v 0 1 1
+
+f 3 2 1
+f 4 3 1
+
+f 7 8 5
+f 6 7 5
+
+f 6 5 1
+f 2 6 1
+
+f 7 6 2
+f 3 7 2
+
+f 8 7 3
+f 4 8 3
+
+f 1 5 8
+f 4 1 8
+
