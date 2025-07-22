@@ -118,5 +118,6 @@ sbatch test_ray.sh
 MIT License © 2025
 
 ## Contact
+jovan.boskovic@iag.uni-stuttgart.de
 
 For issues, suggestions, or academic collaboration, feel free to reach out.
