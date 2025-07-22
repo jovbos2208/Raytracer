@@ -6,7 +6,7 @@
 #SBATCH --partition=test
 #SBATCH --output=raytrace_batch-%j.out
 #SBATCH --error=raytrace_batch-%j.err
-#SBATCH --account=pn76du
+
 
 module load gcc/11.2.0
 module load openmpi/4.1.2-gcc11
